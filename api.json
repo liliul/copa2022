@@ -1,0 +1,150 @@
+[
+   
+   
+    {
+        "grupo": "A",
+        "time1": "Catar",
+        "time2": "Ecuador",
+        "time3": "Senegal",
+        "time4": "Holanda",
+
+        "img1" : "./assets/catar.svg",
+        "img2" : "./assets/ecuador.svg",
+        "img3" : "./assets/senegal.svg",
+        "img4" : "./assets/holanda.svg",
+
+        "hors": "Hora",
+        "hors1" : "13:00",
+        "hors2" : "16:00",
+        "hors3" : "10:00",
+        "hors4" : "07:00"
+        
+    },
+    {
+        "grupo": "B",
+        "time1": "Igraterra",
+        "time2": "Iran",
+        "time3": "Usa",
+        "time4": "Gales",
+
+        "img1" : "./assets/ingraterra.svg",
+        "img2" : "./assets/iran.svg",
+        "img3" : "./assets/usa.svg",
+        "img4" : "./assets/gales.svg",
+
+        "hors": "Hora",
+        "hors1" : "13:00",
+        "hors2" : "16:00",
+        "hors3" : "10:00",
+        "hors4" : "07:00"
+    },
+    {
+        "grupo": "C",
+        "time1": "Argentina",
+        "time2": "Arabia Saudita",
+        "time3": "Mexico",
+        "time4": "Polonia",
+
+        "img1" : "./assets/argentina.svg",
+        "img2" : "./assets/arabiasaudita.svg",
+        "img3" : "./assets/mexico.svg",
+        "img4" : "./assets/polonia.svg",
+
+        "hors": "Hora",
+        "hors1" : "13:00",
+        "hors2" : "16:00",
+        "hors3" : "10:00",
+        "hors4" : "07:00"
+    },
+    {
+        "grupo": "D",
+        "time1": "França",
+        "time2": "Australia",
+        "time3": "Dinamarca",
+        "time4": "Tunisia",
+
+        "img1" : "./assets/franca.svg",
+        "img2" : "./assets/australia.svg",
+        "img3" : "./assets/dinamarca.svg",
+        "img4" : "./assets/tunisia.svg",
+
+        "hors": "Hora",
+        "hors1" : "13:00",
+        "hors2" : "16:00",
+        "hors3" : "10:00",
+        "hors4" : "07:00"
+    },
+    {
+        "grupo": "E",
+        "time1": "Espanha",
+        "time2": "Costa Rica",
+        "time3": "Alemanha",
+        "time4": "Japão",
+
+        "img1" : "./assets/espanha.svg",
+        "img2" : "./assets/costarica.svg",
+        "img3" : "./assets/alemanha.svg",
+        "img4" : "./assets/japan.svg",
+
+        "hors": "Hora",
+        "hors1" : "13:00",
+        "hors2" : "16:00",
+        "hors3" : "10:00",
+        "hors4" : "07:00"
+    },
+    {
+        "grupo": "F",
+        "time1": "belgica",
+        "time2": "Canada",
+        "time3": "Marrocos",
+        "time4": "Croacia",
+
+        "img1" : "./assets/belgica.svg",
+        "img2" : "./assets/canada.svg",
+        "img3" : "./assets/marrocos.svg",
+        "img4" : "./assets/croacia.svg",
+
+        "hors": "Hora",
+        "hors1" : "13:00",
+        "hors2" : "16:00",
+        "hors3" : "10:00",
+        "hors4" : "07:00"
+    },
+    {
+        "grupo": "G",
+        "time1": "Brasil",
+        "time2": "Servia",
+        "time3": "Suiça",
+        "time4": "Cameroon",
+
+        "img1" : "./assets/brasil.svg",
+        "img2" : "./assets/servia.svg",
+        "img3" : "./assets/suica.svg",
+        "img4" : "./assets/camaroon.svg",
+
+        "hors": "Hora",
+        "hors1" : "13:00",
+        "hors2" : "16:00",
+        "hors3" : "10:00",
+        "hors4" : "07:00"
+    },
+    {
+        "grupo": "H",
+        "time1": "Portugal",
+        "time2": "Gana",
+        "time3": "Uruguay",
+        "time4": "Coreia do Sul",
+
+        "img1" : "./assets/portugal.svg",
+        "img2" : "./assets/gana.svg",
+        "img3" : "./assets/uruguay.svg",
+        "img4" : "./assets/coreiaSul.svg",
+
+        "hors": "Hora",
+        "hors1" : "13:00",
+        "hors2" : "16:00",
+        "hors3" : "10:00",
+        "hors4" : "07:00"
+    }
+
+]
