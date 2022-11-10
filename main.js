@@ -17,12 +17,19 @@ async function getFetch() {
     let cardContainer = document.createElement('div')
     cardContainer.classList.add('c-card')
 
+    let letraGrupo = document.createElement('h1')
+    letraGrupo.innerText = dados.grupo
+    cardContainer.appendChild(letraGrupo)
+
     let imgCard = document.createElement('img')
     imgCard.src = './assets/caixa.svg'
 
     let containerGrupos = document.createElement('div')
     containerGrupos.classList.add('c-grupo')
     cardContainer.appendChild(containerGrupos)
+
+   
+    
 
     let ul = document.createElement('ul')
     containerGrupos.appendChild(ul)

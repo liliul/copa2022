@@ -55,17 +55,28 @@
                 position: relative;
                 margin-bottom: 20px;
 
+                h1 {
+                    position: absolute;
+                    top: 20px;
+                    left: 45px;
+
+                    color: white;
+                    font: 16px/bold "Ubuntu", sans-serif;
+                    
+                }
 
                 .c-grupo {
                     width: 220px;
                     height: 220px;
                     overflow: hidden;
+                    margin-top: 20px;
                    
                     position: absolute;
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%,-50%);
                     z-index: 999;
+                   
                    
 
                     ul {
@@ -95,4 +106,109 @@
             }
         }
     }
+}
+
+
+@media screen and (min-width: 730px) {
+    body {
+        background-color: #202020;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .head {
+            background-image: url(../assets/Qatar-2022.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            aspect-ratio: 1/1;
+            object-fit: fill;
+    
+            width: 100%;
+            height: 450px;
+            padding: 10px;
+    
+          
+            h1 {
+                display: none;
+               
+            }
+            p {
+                display: none;
+            }    
+        }
+
+
+
+        .content {
+            background-image: url(../assets/bg-mult-cor.svg);
+            background-color: #202020;
+            background-size: cover;
+    
+            height: auto;
+            padding-top: 40px;
+    
+            .cards {
+                display: flex;
+                // flex-direction: column;
+                // align-items: center;
+    
+    
+                .c-card {
+                    position: relative;
+                    margin-bottom: 20px;
+    
+                    h1 {
+                        position: absolute;
+                        top: 20px;
+                        left: 45px;
+    
+                        color: white;
+                        font: 16px/bold "Ubuntu", sans-serif;
+                        
+                    }
+    
+                    .c-grupo {
+                        width: 220px;
+                        height: 220px;
+                        overflow: hidden;
+                        margin-top: 20px;
+                       
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        z-index: 999;
+                       
+                       
+    
+                        ul {
+    
+                            li {
+                                display: flex;
+                                align-items: center;
+    
+                                margin-bottom: 10px;
+                                padding-bottom: 10px;
+                                border-bottom: 1px solid #999999;
+    
+                                img {
+                                    width: 30px;
+                                    height: 30px;
+                                }
+    
+                                span {
+                                    margin-left: 20px;
+                                    color: white;
+                                    font: 15px 'FiraCode', sans-serif;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }   
 }
