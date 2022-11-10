@@ -126,7 +126,7 @@
             object-fit: fill;
     
             width: 100%;
-            height: 450px;
+            height: 434px;
             padding: 10px;
     
           
@@ -142,17 +142,24 @@
 
 
         .content {
-            background-image: url(../assets/bg-mult-cor.svg);
-            background-color: #202020;
-            background-size: cover;
+            // background-image: url(../assets/bg-mult-cor.svg);
+            // background-color: #202020;
+            // background-size: cover;
     
-            height: auto;
-            padding-top: 40px;
+            // height: auto;
+            // padding-top: 40px;
     
             .cards {
+                max-width: 750px;
+                margin: 0 auto;
+                padding: 20px 0px;
+
                 display: flex;
-                // flex-direction: column;
-                // align-items: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 40px;
+                
+                justify-content: center;
     
     
                 .c-card {
